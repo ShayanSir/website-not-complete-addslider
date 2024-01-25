@@ -845,6 +845,7 @@ nav h3 {
     opacity: 0; /* Initially hidden */
     transition: opacity 1s ease;
     margin: 0;
+    font-size: 70px;
 }
 
 /* Hide splash screen after animations */
@@ -966,5 +967,57 @@ a:hover {
   } */
 
   /* SLIDER  */
-  
-  
+
+#slider h1{
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+    top: 20px;
+}
+
+#slider p{
+    text-align: center;
+}
+
+  #slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
