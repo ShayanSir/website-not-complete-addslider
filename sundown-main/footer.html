@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wdd 02</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbg{
+    background: #45536D;
+}
+
+.productslist{
+    list-style: none;
+}
+
+
+
+.productslist li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+} 
+
+.sicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sicon span{
+    width: 25px;
+    height: 25px;
+    background: #59657D;
+    box-shadow: 2px 18px 10px #3E495D;
+    padding: 20px;
+    margin: 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+hr{
+    border: 2px solid #59657D;
+    box-shadow: 2px 1px 10px #3E495D;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid mainbg text-light py-3 px-5">
+        <div class="row d-flex justify-content-around p-lg-5 p-md-1 p-sm-1">
+            <div class="col-lg-4 mb-4 boxborder">
+                <h4>Company Name</h4>
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam unde incidunt quam, reprehenderit
+                    quasi esse repudiandae nostrum earum voluptate? Itaque dolore nulla quos porro perspiciatis?</p>
+
+            </div>
+            <div class="col-lg-2 mb-4 boxborder">
+                <h4>Products</h4>
+                <ul class="list-group productslist ">
+                    <li><a href="#">Bootstrap</a></li>
+                    <li><a href="#">Wordpress</a></li>
+                    <li><a href="#">Laravel</a></li>
+                    <li><a href="#">Node js</a></li>
+                    <li><a href="#">Python</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-2 mb-4 boxborder">
+                <h4>Usefull Links</h4>
+                <ul class="list-group productslist ">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">payment</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3 mb-4 boxborder">
+                <h4>Contact</h4>
+                <ul class="list-group productslist ">
+                    <li>
+                        <a href="#">
+                            <span><i class="fa-solid fa-house"></i></span>
+                            New Work
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+
+                            email@mail.com</a>
+                    </li>
+                    <li><a href="#"> <span><i class="fa-solid fa-phone-flip"></i></span> 014152547</a></li>
+                    <li><a href="#">
+                        <span><i class="fa-solid fa-fax"></i></span>
+                        
+                        0124587</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row d-flex justify-content-between px-3">
+                <div class="col-lg-4 col-md-12 d-flex align-items-end">
+                    <p>&copy; 2022 Copyright Abu sayed</p>
+                </div>
+                
+                <div class="col-lg-4 col-md-12 text-end">
+                    <p class="sicon">
+                        <span>
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-youtube"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span>
+                            <i class="fa-brands fa-pinterest"></i>
+                        </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ba8b15f118.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
