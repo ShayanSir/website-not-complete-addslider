@@ -1021,7 +1021,7 @@ a:hover {
 
   .arrow {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     font-size: 24px;
     cursor: pointer;
